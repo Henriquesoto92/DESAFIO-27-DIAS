@@ -159,7 +159,7 @@ p {
     box-shadow: none;
 }
 
-.section {
+section {
     padding: 5rem 0;
 }
 
@@ -265,6 +265,13 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
+
+    .portfolio-item {
+        display: flex;
+        flex-direction: row;
+        max-width: 50vw;
+    }
+
     .section-center {
         width: 95vw;
         grid-template-columns: 1fr 1fr;
